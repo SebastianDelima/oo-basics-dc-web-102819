@@ -6,7 +6,7 @@ class Shoe
     @material = material
     @condition = condition
   end
-  def cobble(shoe)
-    puts 
+  def cobble
+    puts "Your shoe is as good as new!"
   end
 end
