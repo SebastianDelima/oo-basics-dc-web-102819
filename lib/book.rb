@@ -1,3 +1,5 @@
+require 'pry'
+
 class Book
   attr_accessor :title, :author, :author, :page_count, :genre
   def initialize(title, author = " ", page_count = 0, genre = "")
@@ -6,7 +8,8 @@ class Book
     @page_count = page_count
     @genre = genre
   end
-   def turn_page
+   def turn_page(@title)
+     binding.pry
      @page_count += 1
    end
 end
