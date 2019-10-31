@@ -6,5 +6,8 @@ class Book
     @page_count = page_count
     @genre = genre
   end
+   def turn_page
+     @page_count += 1
+   end
 end
 
