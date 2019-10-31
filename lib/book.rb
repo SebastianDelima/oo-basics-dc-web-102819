@@ -8,7 +8,7 @@ class Book
     @page_count = page_count
     @genre = genre
   end
-  binding.pry
+
    def turn_page
     "Flipping the page...wow, you read fast!"
    end
