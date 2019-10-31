@@ -6,7 +6,7 @@ class Shoe
     @material = material
     @condition = condition
   end
-  def cobble
-    
+  def cobble(shoe)
+    puts 
   end
 end
